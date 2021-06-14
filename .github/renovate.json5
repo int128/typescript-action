@@ -8,8 +8,6 @@
   ],
   "packageRules": [
     {
-      "additionalBranchPrefix": "{{packageFileDir}}-",
-      "commitMessageSuffix": "({{packageFileDir}})",
       "matchUpdateTypes": ["minor", "patch", "pin"],
       "automerge": true
     }
