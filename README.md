@@ -21,9 +21,9 @@ jobs:
 
 ## Inputs
 
-| Name | Required | Default | Description
-|------|----------|---------|------------
-| `name` | `true` | - | example input
+| Name | Default | Description
+|------|----------|------------
+| `name` | (required) | example input
 
 
 ## Outputs
