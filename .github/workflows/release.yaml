@@ -20,7 +20,4 @@ jobs:
       - run: yarn
       - run: yarn build
       - run: yarn package
-      - if: github.event_name == 'push'
-        uses: ./.github/actions/release
-        with:
-          tag-name: v1
+      - uses: int128/release-typescript-action@v1
