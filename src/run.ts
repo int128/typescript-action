@@ -8,3 +8,5 @@ type Inputs = {
 export const run = async (inputs: Inputs): Promise<void> => {
   core.info(`my name is ${inputs.name}`)
 }
+
+
