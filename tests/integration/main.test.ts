@@ -2,7 +2,11 @@ import {RunOptions, RunTarget} from 'github-action-ts-run-api';
 import * as os from "os";
 
 describe('action main', () => {
-    const target = RunTarget.jsFile('./lib/src/main.js', 'action.yaml');
+    const target = RunTarget.asyncFn(async () => import('../../src/main'), 'action.yaml');
+
+    afterEach(() => {
+        jest.resetModules()
+    })
 
     test('correct input', async () => {
         const result = await target.run(
