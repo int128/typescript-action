@@ -1,6 +1,9 @@
 {
   "extends": [
     "config:base",
+    ":automergeMinor",
+    ":label(dependencies)",
+    ":label(renovate/{{depName}})",
     "github>int128/typescript-action-renovate-config",
     "helpers:pinGitHubActionDigests",
   ]
