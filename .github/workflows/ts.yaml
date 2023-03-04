@@ -48,4 +48,4 @@ jobs:
           cache: yarn
       - run: yarn
       - run: yarn format
-      - uses: int128/update-generated-files-action@68ee6db3259f2fdfb28d29eaefba4fa252b3ed3e # v2
+      - uses: int128/update-generated-files-action@35584f7a0a4c1dfc697c8acba5459fcf30fe3a5b # v2
