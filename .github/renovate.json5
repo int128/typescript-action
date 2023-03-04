@@ -3,6 +3,5 @@
     "github>int128/renovate-base",
     "github>int128/typescript-action-renovate-config",
     "helpers:pinGitHubActionDigests",
-    ":automergeDigest",
   ]
 }
