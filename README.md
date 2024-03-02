@@ -3,11 +3,9 @@
 This is a template of TypeScript action.
 Inspired from https://github.com/actions/typescript-action.
 
-
 ## Features
 
 - Ready to develop with the minimum configs
-  - Yarn
   - Prettier
   - ESLint
   - tsconfig
@@ -15,7 +13,6 @@ Inspired from https://github.com/actions/typescript-action.
 - Automated continuous release
 - Keep consistency of generated files
 - Shipped with Renovate config
-
 
 ## Getting Started
 
@@ -29,8 +26,8 @@ Then checkout your repository and test it. Node.js is required.
 ```console
 $ git clone https://github.com/your/repo.git
 
-$ yarn
-$ yarn test
+$ pnpm i
+$ pnpm test
 ```
 
 Create a pull request for a change.
@@ -43,19 +40,17 @@ $ gh pr create -fd
 
 Once you merge a pull request, a new minor release (such as `v0.1.0`) is created.
 
-
 ### Stable release
 
 When you want to create a stable release, change the major version in [release workflow](.github/workflows/release.yaml).
 
 ```yaml
-      - uses: int128/release-typescript-action@v1
-        with:
-          major-version: 1
+- uses: int128/release-typescript-action@v1
+  with:
+    major-version: 1
 ```
 
 Then a new stable release `v1.0.0` is created.
-
 
 ## Specification
 
@@ -73,17 +68,15 @@ jobs:
 
 ### Inputs
 
-| Name | Default | Description
-|------|----------|------------
-| `name` | (required) | example input
-
+| Name   | Default    | Description   |
+| ------ | ---------- | ------------- |
+| `name` | (required) | example input |
 
 ### Outputs
 
-| Name | Description
-|------|------------
-| `example` | example output
-
+| Name      | Description    |
+| --------- | -------------- |
+| `example` | example output |
 
 ## Development
 
