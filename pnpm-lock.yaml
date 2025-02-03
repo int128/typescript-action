@@ -27,6 +27,9 @@ importers:
       eslint:
         specifier: 9.19.0
         version: 9.19.0
+      pnpm:
+        specifier: 10.1.0
+        version: 10.1.0
       prettier:
         specifier: 3.4.2
         version: 3.4.2
@@ -823,6 +826,11 @@ packages:
   picomatch@2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  pnpm@10.1.0:
+    resolution: {integrity: sha512-yJhHsGZ92rUDlru9AIoqQ887WB79Wc9dmqiSPqH7S4EGwEHVQNCKywlQN1lNc+vFHh7InuQMiLMLimbA+uCsGw==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   postcss@8.5.1:
     resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
@@ -1744,6 +1752,8 @@ snapshots:
   picocolors@1.1.1: {}
 
   picomatch@2.3.1: {}
+
+  pnpm@10.1.0: {}
 
   postcss@8.5.1:
     dependencies:
