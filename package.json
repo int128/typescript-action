@@ -15,7 +15,7 @@
     "@tsconfig/node20": "20.1.4",
     "@types/node": "20.17.16",
     "@vercel/ncc": "0.38.3",
-    "@vitest/eslint-plugin": "1.1.26",
+    "@vitest/eslint-plugin": "1.1.27",
     "eslint": "9.20.0",
     "pnpm": "10.2.1",
     "prettier": "3.4.2",
