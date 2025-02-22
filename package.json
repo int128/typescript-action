@@ -18,7 +18,7 @@
     "@vitest/eslint-plugin": "1.1.31",
     "eslint": "9.21.0",
     "pnpm": "10.4.1",
-    "prettier": "3.5.1",
+    "prettier": "3.5.2",
     "typescript": "5.7.3",
     "typescript-eslint": "8.24.1",
     "vitest": "3.0.6"
