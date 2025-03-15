@@ -1,13 +1,11 @@
 import * as core from '@actions/core'
 import { run } from './run.js'
 
-const main = async (): Promise<void> => {
+try {
   await run({
     name: core.getInput('name', { required: true }),
   })
-}
-
-main().catch((e: Error) => {
-  core.setFailed(e)
+} catch (e) {
+  core.setFailed(e instanceof Error ? e : String(e))
   console.error(e)
-})
+}
