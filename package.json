@@ -3,7 +3,7 @@
   "scripts": {
     "format": "prettier --write **/*.ts",
     "lint": "eslint .",
-    "build": "ncc build --source-map --license licenses.txt src/main.ts",
+    "build": "ncc build --source-map --license licenses.txt src/index.ts",
     "test": "vitest"
   },
   "type": "module",
