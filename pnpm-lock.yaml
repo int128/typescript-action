@@ -25,8 +25,8 @@ importers:
         specifier: 0.38.3
         version: 0.38.3
       '@vitest/eslint-plugin':
-        specifier: 1.1.37
-        version: 1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint@9.22.0)(typescript@5.8.2)(vitest@3.0.9(@types/node@20.17.24))
+        specifier: 1.1.38
+        version: 1.1.38(@typescript-eslint/utils@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint@9.22.0)(typescript@5.8.2)(vitest@3.0.9(@types/node@20.17.24))
       eslint:
         specifier: 9.22.0
         version: 9.22.0
@@ -449,8 +449,8 @@ packages:
     resolution: {integrity: sha512-rnK6hJBS6mwc+Bkab+PGPs9OiS0i/3kdTO+CkI8V0/VrW3vmz7O2Pxjw/owOlmo6PKEIxRSeZKv/kuL9itnpYA==}
     hasBin: true
 
-  '@vitest/eslint-plugin@1.1.37':
-    resolution: {integrity: sha512-cnlBV8zr0oaBu1Vk6ruqWzpPzFCtwY0yuwUQpNIeFOUl3UhXVwNUoOYfWkZzeToGuNBaXvIsr6/RgHrXiHXqXA==}
+  '@vitest/eslint-plugin@1.1.38':
+    resolution: {integrity: sha512-KcOTZyVz8RiM5HyriiDVrP1CyBGuhRxle+lBsmSs6NTJEO/8dKVAq+f5vQzHj1/Kc7bYXSDO6yBe62Zx0t5iaw==}
     peerDependencies:
       '@typescript-eslint/utils': ^8.24.0
       eslint: '>= 8.57.0'
@@ -1356,7 +1356,7 @@ snapshots:
 
   '@vercel/ncc@0.38.3': {}
 
-  '@vitest/eslint-plugin@1.1.37(@typescript-eslint/utils@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint@9.22.0)(typescript@5.8.2)(vitest@3.0.9(@types/node@20.17.24))':
+  '@vitest/eslint-plugin@1.1.38(@typescript-eslint/utils@8.26.1(eslint@9.22.0)(typescript@5.8.2))(eslint@9.22.0)(typescript@5.8.2)(vitest@3.0.9(@types/node@20.17.24))':
     dependencies:
       '@typescript-eslint/utils': 8.26.1(eslint@9.22.0)(typescript@5.8.2)
       eslint: 9.22.0
