@@ -16,7 +16,7 @@
     "@types/node": "20.17.25",
     "@vercel/ncc": "0.38.3",
     "@vitest/eslint-plugin": "1.1.38",
-    "eslint": "9.22.0",
+    "eslint": "9.23.0",
     "pnpm": "10.6.5",
     "prettier": "3.5.3",
     "typescript": "5.8.2",
