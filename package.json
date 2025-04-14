@@ -17,7 +17,7 @@
     "@vercel/ncc": "0.38.3",
     "@vitest/eslint-plugin": "1.1.42",
     "eslint": "9.24.0",
-    "pnpm": "10.8.0",
+    "pnpm": "10.8.1",
     "prettier": "3.5.3",
     "typescript": "5.8.3",
     "typescript-eslint": "8.29.1",
@@ -26,5 +26,5 @@
   "engines": {
     "node": "20.x"
   },
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.1"
 }
