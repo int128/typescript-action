@@ -32,7 +32,7 @@ jobs:
       - run: pnpm test
       - run: pnpm build
 
-      - name: e2e-test
+      - name: Run int128/typescript-action
         uses: ./
         with:
           name: foo
