@@ -1,2 +1,2 @@
 packages: ["."]
-minimumReleaseAge: 4320
+minimumReleaseAge: 4320 # 3 days
