@@ -1,6 +1,6 @@
 import * as core from '@actions/core'
-import { Context } from './github.js'
-import { Octokit } from '@octokit/action'
+import type { Octokit } from '@octokit/action'
+import type { Context } from './github.js'
 
 type Inputs = {
   name: string
