@@ -6,10 +6,9 @@ Inspired from https://github.com/actions/typescript-action.
 ## Features
 
 - Ready to develop with the minimum configs
-  - Prettier
-  - ESLint
   - tsconfig
-  - Jest
+  - Biome
+  - Vitest
 - Automated continuous release
 - Keep consistency of generated files
 - Shipped with Renovate config
@@ -21,7 +20,7 @@ Click `Use this template` to create a repository.
 An initial release `v0.0.0` is automatically created by GitHub Actions.
 You can see the generated files in `dist` directory on the tag.
 
-Then checkout your repository and test it. Node.js is required.
+Then, checkout your repository and test it. Node.js is required.
 
 ```console
 $ git clone https://github.com/your/repo.git
@@ -30,15 +29,9 @@ $ pnpm i
 $ pnpm test
 ```
 
-Create a pull request for a change.
+Create a pull request with your change.
 
-```console
-$ git checkout -b feature
-$ git commit -m 'Add feature'
-$ gh pr create -fd
-```
-
-Once you merge a pull request, a new minor release (such as `v0.1.0`) is created.
+After merging the pull request, a new minor release (such as `v0.1.0`) is created.
 
 ### Stable release
 
