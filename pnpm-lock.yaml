@@ -24,12 +24,12 @@ importers:
       '@octokit/webhooks-types':
         specifier: 7.6.1
         version: 7.6.1
-      '@tsconfig/node20':
-        specifier: 20.1.8
-        version: 20.1.8
+      '@tsconfig/node24':
+        specifier: 24.0.3
+        version: 24.0.3
       '@types/node':
-        specifier: 20.19.25
-        version: 20.19.25
+        specifier: 24.10.1
+        version: 24.10.1
       '@vercel/ncc':
         specifier: 0.38.4
         version: 0.38.4
@@ -41,7 +41,7 @@ importers:
         version: 5.9.3
       vitest:
         specifier: 4.0.13
-        version: 4.0.13(@types/node@20.19.25)
+        version: 4.0.13(@types/node@24.10.1)
 
 packages:
 
@@ -438,8 +438,8 @@ packages:
   '@standard-schema/spec@1.0.0':
     resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
 
-  '@tsconfig/node20@20.1.8':
-    resolution: {integrity: sha512-Em+IdPfByIzWRRpqWL4Z7ArLHZGxmc36BxE3jCz9nBFSm+5aLaPMZyjwu4yetvyKXeogWcxik4L1jB5JTWfw7A==}
+  '@tsconfig/node24@24.0.3':
+    resolution: {integrity: sha512-vcERKtKQKHgzt/vfS3Gjasd8SUI2a0WZXpgJURdJsMySpS5+ctgbPfuLj2z/W+w4lAfTWxoN4upKfu2WzIRYnw==}
 
   '@types/chai@5.2.2':
     resolution: {integrity: sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==}
@@ -450,8 +450,8 @@ packages:
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
-  '@types/node@20.19.25':
-    resolution: {integrity: sha512-ZsJzA5thDQMSQO788d7IocwwQbI8B5OPzmqNvpf3NY/+MHDAS759Wo0gd2WQeXYt5AAAQjzcrTVC6SKCuYgoCQ==}
+  '@types/node@24.10.1':
+    resolution: {integrity: sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==}
 
   '@vercel/ncc@0.38.4':
     resolution: {integrity: sha512-8LwjnlP39s08C08J5NstzriPvW1SP8Zfpp1BvC2sI35kPeZnHfxVkCwu4/+Wodgnd60UtT1n8K8zw+Mp7J9JmQ==}
@@ -608,8 +608,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@7.16.0:
+    resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
   undici@5.28.3:
     resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
@@ -969,7 +969,7 @@ snapshots:
 
   '@standard-schema/spec@1.0.0': {}
 
-  '@tsconfig/node20@20.1.8': {}
+  '@tsconfig/node24@24.0.3': {}
 
   '@types/chai@5.2.2':
     dependencies:
@@ -979,9 +979,9 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
-  '@types/node@20.19.25':
+  '@types/node@24.10.1':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 7.16.0
 
   '@vercel/ncc@0.38.4': {}
 
@@ -994,13 +994,13 @@ snapshots:
       chai: 6.2.1
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.13(vite@6.0.11(@types/node@20.19.25))':
+  '@vitest/mocker@4.0.13(vite@6.0.11(@types/node@24.10.1))':
     dependencies:
       '@vitest/spy': 4.0.13
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 6.0.11(@types/node@20.19.25)
+      vite: 6.0.11(@types/node@24.10.1)
 
   '@vitest/pretty-format@4.0.13':
     dependencies:
@@ -1149,7 +1149,7 @@ snapshots:
 
   typescript@5.9.3: {}
 
-  undici-types@6.21.0: {}
+  undici-types@7.16.0: {}
 
   undici@5.28.3:
     dependencies:
@@ -1159,19 +1159,19 @@ snapshots:
 
   universal-user-agent@7.0.3: {}
 
-  vite@6.0.11(@types/node@20.19.25):
+  vite@6.0.11(@types/node@24.10.1):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.34.0
     optionalDependencies:
-      '@types/node': 20.19.25
+      '@types/node': 24.10.1
       fsevents: 2.3.3
 
-  vitest@4.0.13(@types/node@20.19.25):
+  vitest@4.0.13(@types/node@24.10.1):
     dependencies:
       '@vitest/expect': 4.0.13
-      '@vitest/mocker': 4.0.13(vite@6.0.11(@types/node@20.19.25))
+      '@vitest/mocker': 4.0.13(vite@6.0.11(@types/node@24.10.1))
       '@vitest/pretty-format': 4.0.13
       '@vitest/runner': 4.0.13
       '@vitest/snapshot': 4.0.13
@@ -1188,10 +1188,10 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 6.0.11(@types/node@20.19.25)
+      vite: 6.0.11(@types/node@24.10.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 20.19.25
+      '@types/node': 24.10.1
     transitivePeerDependencies:
       - jiti
       - less
