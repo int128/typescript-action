@@ -26,6 +26,8 @@ export const getContext = async (): Promise<Context> => {
 
 const getRepo = () => {
   const [owner, repo] = getEnv('GITHUB_REPOSITORY').split('/')
+  assert(owner, 'GITHUB_REPOSITORY owner is required')
+  assert(repo, 'GITHUB_REPOSITORY repo is required')
   return { owner, repo }
 }
 
