@@ -1,2 +1,5 @@
-packages: ["."]
+packages: [ "." ]
 minimumReleaseAge: 4320 # 3 days
+minimumReleaseAgeExclude:
+  # Renovate security update: pnpm@10.28.2
+  - pnpm@10.28.2
