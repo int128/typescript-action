@@ -1,5 +1,7 @@
-import { expect, it } from 'vitest'
+import { describe, it } from 'node:test'
 
-it('would be nice to write a test for the domain logic', () => {
-  expect(true).toBeTruthy()
+describe('run', () => {
+  it('would be nice to write a test for the domain logic', () => {
+    // TODO
+  })
 })
