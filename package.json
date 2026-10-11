@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
-    "@octokit/webhooks-types": "7.6.1",
+    "@octokit/openapi-webhooks-types": "12.2.0",
     "@tsconfig/node24": "24.0.5",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.19.1",
