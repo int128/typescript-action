@@ -16,7 +16,7 @@
     "@octokit/openapi-webhooks-types": "12.2.0",
     "@tsconfig/node24": "24.0.5",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "24.19.1",
+    "@types/node": "24.19.2",
     "@vercel/ncc": "0.45.0",
     "pnpm": "12.9.0",
     "typescript": "6.0.3"
