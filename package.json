@@ -12,7 +12,7 @@
     "@octokit/plugin-retry": "8.1.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.6.7",
+    "@biomejs/biome": "2.6.8",
     "@octokit/openapi-webhooks-types": "12.2.0",
     "@tsconfig/node24": "24.0.6",
     "@tsconfig/strictest": "2.0.9",
